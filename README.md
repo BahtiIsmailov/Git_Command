@@ -1,12 +1,17 @@
 # Git_Command
 echo "# название" >> README.md
 git init
+
 git add README.md
-git commit -m "first commit"
+
+git commit -m "first commit"\
+
 git remote add origin https://github.com/stanruss/название.git
+
 git push -u origin master
 
 git log --oneline - посмотреть все коммиты.
+
 git checkout . - восстановить все.
 git checkout "код коммита" - вернуть до состояния этого коммита.
 git checkout master - вернуться в ветку мастер.
